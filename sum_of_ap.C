@@ -1,13 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
 int a,d,n,i,tn;
 int sum=0;
-printf("enter the first term:",a);
+printf("first term:",a);
 scanf("%d",&a);
-printf("enter the difference between each terms:",d);
+printf(" difference :",d);
 scanf("%d",&d);
-printf("enter the last term:",n);
+printf("last term:",n);
 scanf("%d",&n);
 sum=(n*(2*a+(n-1)*d))/2;
 tn=a+(n-1)*d;
